@@ -11,13 +11,10 @@
 
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
+
 
 #intro {
-    background-image: url("1.png");
+    background-image: url("1.png") ;
     height: 700px;
     background-size: cover ;
     color: var(--ff-color2);
@@ -37,33 +34,7 @@ body{
     height: 2px;
     margin: 3px 0;
 }
-#diamonds{
-    margin-top: 170px;
-    padding-right: 5px;
-}
-.diamond{
-    margin: 15px;
-    width: 9px;
-    height: 9px;
-    border: 2px solid var(--ff-color2);
-    background: transparent;
-    transform: translate(-50%,-50%);
-    transform: rotate(-45deg);
-    transform-origin: 0,100%;
-    
-}
-.diamond:hover{
-    background: rgba(255, 255, 255, 0.4);
-}
-#logo{
-    float: left;
-    margin-left: 13%;
-    margin-top: 4%;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    padding: 10px;
-    border: 3px solid var(--ff-color2);
-}
+
 #center{
     padding-top: 255px;
     margin-left: 16%;
@@ -72,121 +43,20 @@ body{
     font-size: 45px
 
 }
-#welcome{
-    line-height: 38px;
-}
-#h1{
-    width: 8%;
-    line-height: 38px;
-}
-#name{
-    line-height: 38px;
-    font-family: var(--ff-secondary);
-}
-#buttons{
-    display: flex;
-    margin-top: 45px;
-    margin-left: 230px;
-}
-.button{
-    font-size: 12px;
-    text-align: center;
-    border: 3px solid var(--ff-color2);
-    padding: 15px;
-    height: 12px;
-    width: 140px;
-    font-weight: 500;
-    background: rgba(255, 255, 255, 0.2);
-}
-.button:hover{
-    background: rgba(255, 255, 255, 0.4);
-}
 #or{
     font-family: var(--ff-secondary);
     font-size: 30px;
     padding: 20px;
     padding-top: 0px;
 }
-#arrow{
-    background: transparent;
-    border: 3px solid var(--ff-color2);
-    text-decoration:none;
-    border-radius: 50%;
-    height: 70px;
-    width: 70px;
-    text-align: center;
-    margin-top: 120px;
-    margin-left: 400px;
-}
-#arrow:hover{
-    background: rgba(255, 255, 255, 0.4);
-}
+
+
 #arrow div {
     margin-top: 10px;
     color: white;
 }
-#paris{
-    background-image: url("2.png");
-    height: 600px;
-    background-size: cover ;
-    color: var(--ff-color2);
-}
-.desc{
-    margin-left: 13.5%;
-    padding-top: 7%;
-    margin-right: 47.5%;
-    text-align: justify;
-}
-.stamp{
-    display: flex;
-    font-size: 12px;
-    font-weight: 500;
-}
-.date{
-    color:var(--ff-color4);
-    
-}
-.titl{
-    color: var(--ff-color3);
-    font-size: 35px;
-}
-.word{
-    font-size: 35px;
-}
-.ipsum{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.ipsum2{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: cursive;
-    font-size: 25px;
-}
-.desc hr{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.desc2 hr{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-#bucharest{
-    background-image: url("3.png");
-    height: 600px;
-    background-size: cover ;
-}
-.desc2{
-    float: right;
-    margin-right: 13.5%;
-    padding-top: 7%;
-    margin-left: 49%;
-    text-align: justify;
-}
-.button2:hover{
-    background: var(--ff-color5);
-    color: var(--ff-color2);
-}
+
+
 #contact{
     color: var(--ff-color2);
     background-image: url("4.png");
